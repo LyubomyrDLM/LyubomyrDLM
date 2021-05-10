@@ -12,12 +12,12 @@
     <header id="home">
         <div>
             <div>
-                <img src="img/logo.jpg" alt="logo">
+                <img src="img/logo.jpg" alt="logo" width="100">
             </div>
             <nav>
                 <a href="#home">Головна</a>
                 <a href="#about">Про нас</a>
-                <a href="#price">Асортимен та ціни</a>
+                <a href="price.html">Асортимен та ціни</a>
                 <a href="#event">Події</a>
                 <a href="#gallery">Галерея</a>
                 <a href="#contacts">Контакти</a>
@@ -25,12 +25,14 @@
         </div>
         <div>
             <h1>Скуштуйте смак справжнього натурального ПИВА!</h1>
-            <button>Замовити</button>
+            <form action="price.html" target="_blank">
+                <button>Замовити</button>
+            </form>
         </div>
     </header>
     <main>
-        <article id="about">
-            <img src="img/fermenters.jpg">
+        <section id="about">
+            <img src="img/fermenters.jpg" width="300">
 
             <h2>Пивоварня<h2>
                     <p>Виробництво пива — складний і тривалий процес, що складається з кількох нетехнологічних циклів:
@@ -38,7 +40,7 @@
                         доброджування,
                         фільтрація пива і розлив.</p>
                     <button>Більше про нас</button>
-        </article>
+        </section>
         <article id="price">
             <div class="price">
                 <h3>Асортимент та ціни<h3>
@@ -66,9 +68,13 @@
                             групи В, сполуки кальцію, мангану, фосфору та магнію, які легко засвоюються організмом
                             людини.</p>
             </div>
-            <button>Замовити</button>
+            <div>
+                <form action="price.html" target="_blank">
+                    <button>Замовити</button>
+                </form>
+            </div>
         </article>
-        <article id="event">
+        <section id="event">
             <h3>Події</h3>
             <table border="1">
                 <tr>
@@ -87,8 +93,8 @@
                     <td>Фестиваль пива</td>
                 </tr>
             </table>
-        </article>
-        <article id="gallery">
+        </section>
+        <section id="gallery">
             <div>
                 <h2>Галерея</h2>
             </div>
@@ -98,21 +104,21 @@
                     <img src="img/pic.jpg" </div>
                     <div>
                         <img src="img/picc.jpg" </div>
-        </article>
+        </section>
     </main>
     <footer>
-        <article id="contacts">
+        <section id="contacts">
             <h3>Контакти</h3>
             <form method="" action="">
                 <label>
-                Імя <input type="text" placeholder="Ваше імя">
+                    Імя <input type="text" placeholder="Ваше імя" name="user-name">
                 </label>
                 <label>
-                Номер тел. <input type="tel" placeholder="Номер телефону">
-            </label>
-            <input type="submit" value="Відправити" >
-        </article>
-        
+                    Номер тел. <input type="tel" placeholder="Номер телефону" name="user-tel">
+                </label>
+                <input type="submit" value="Відправити" name="send">
+        </section>
+
 
     </footer>
 </body>

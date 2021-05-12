@@ -1,0 +1,36 @@
+.heading {
+    background-image: url(../img/Beer.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.logo {
+    position: relative;
+    margin-left: 100px;
+    padding: 30px;
+    
+}
+    
+.navigation {
+    text-transform: uppercase;
+    text-align: center; 
+    font-size: 20px;
+    
+}
+
+a {
+    color: black;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+.natural-beer {
+    text-transform: uppercase;
+    text-align: center;
+} 
+
+#contacts {
+    background-image: url(../img/Beer.jpg);
+}

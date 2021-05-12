@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Янтарне пиво</title>
     <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 
 <body>
     <header id="home">
-        <div>
-            <div>
+        <div class="heading">
+            <div class="logo">
                 <img src="img/logo.jpg" alt="logo" width="100">
             </div>
-            <nav>
+            <nav class="navigation">
                 <a href="#home">Головна</a>
                 <a href="#about">Про нас</a>
                 <a href="price.html">Асортимен та ціни</a>
@@ -23,13 +24,15 @@
                 <a href="#contacts">Контакти</a>
             </nav>
         </div>
-        <div>
+        
+        <div class="natural-beer">
             <h1>Скуштуйте смак справжнього натурального ПИВА!</h1>
-            <form action="price.html" target="_blank">
+            <form class="price" action="price.html" target="_blank">
                 <button>Замовити</button>
             </form>
         </div>
     </header>
+    
     <main>
         <section id="about">
             <img src="img/fermenters.jpg" width="300">
@@ -76,23 +79,10 @@
         </article>
         <section id="event">
             <h3>Події</h3>
-            <table border="1">
-                <tr>
-                    <th>Понеділок</th>
-                </tr>
-                <tr>
-                    <td>м. Львів</td>
-                </tr>
-                <tr>
-                    <td>11.30 AM - 2.30 PM</td>
-                </tr>
-                <tr>
-                    <td>вул. Городоцька 25</td>
-                </tr>
-                <tr>
-                    <td>Фестиваль пива</td>
-                </tr>
-            </table>
+            <span>Craft Beer and Vinil Festival</span>
+            <span>ЛЬвів</span>
+
+
         </section>
         <section id="gallery">
             <div>
@@ -106,6 +96,7 @@
                         <img src="img/picc.jpg" </div>
         </section>
     </main>
+
     <footer>
         <section id="contacts">
             <h3>Контакти</h3>
@@ -118,8 +109,6 @@
                 </label>
                 <input type="submit" value="Відправити" name="send">
         </section>
-
-
     </footer>
 </body>
 

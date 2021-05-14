@@ -12,7 +12,6 @@
 
 .heading .logo img {
     display: block;
-    position: relative;
     width: 200px;
     height: auto;
     padding: 30px;
@@ -37,17 +36,18 @@
     background-image: url(../img/Beer.jpg);
     background-size: cover;
     background-position: center;
-    min-width: 600px;
-    height: 600px;
+    min-width: 500px;
+    min-height: 750px;
 }
 
 .natural-beer h1 {
     display: block;
     text-transform: uppercase;
     text-align: center;
-    font-size: 40px;
+    font-size: 45px;
     font-weight: bold;
 }
+
 .colorword {
     color: white;
 }
@@ -57,14 +57,14 @@
     margin-left: auto;
     margin-right: auto;
     margin-top: 25px;
-    width: 100px;
+    min-width: 100px;
     height: 40px;
     border-radius: 10px;
     font-size: large;
     
 }
 
-@media (min-width: 600px) {
+@media (min-width: 500px) {
 
 .heading {    
     display: flex;
@@ -78,7 +78,7 @@
 
 .natural-beer {
     display: block;
-    padding: 100px;
+    padding: 120px;
     }
 
 .fpage img {
@@ -89,8 +89,8 @@
 .fpage {
     display: block;
     position: absolute;
-    right: 150px;
-    top: 110px;  
+    right: 170px;
+    top: 100px;  
     }
 }
 

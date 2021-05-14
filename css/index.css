@@ -10,7 +10,6 @@
     --main-color: black;
 }
 
-
 .heading .logo img {
     display: block;
     position: relative;
@@ -25,15 +24,14 @@
     text-decoration: none;
     text-transform: uppercase;
     color: var(--main-color);
-    padding: 0 40px;
-    
-    }
-
-.heading nav a:hover {
-    color: white; 
-    font-weight: bold;
+    padding: 0 50px;
+    font-size: large;
 }
 
+.heading nav a:hover {
+    color: rgb(255, 255, 255); 
+    font-weight: bold;
+}
 
 #home {
     background-image: url(../img/Beer.jpg);
@@ -50,41 +48,49 @@
     font-size: 40px;
     font-weight: bold;
 }
+.colorword {
+    color: white;
+}
 
-.price button {
+.price .order {
     display: block;
-    position: relative;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 25px;
     width: 100px;
+    height: 40px;
     border-radius: 10px;
+    font-size: large;
+    
 }
-  
- 
+
 @media (min-width: 600px) {
 
 .heading {    
     display: flex;
-   }
+    }
 
 .heading nav {
     display: flex;
     flex: 1;
     align-items: center;
-    
     }
 
-    .natural-beer {
+.natural-beer {
     display: block;
     padding: 100px;
     }
-
 
 .fpage img {
     display: block;
     width: 50px;
     border-radius: 20px;
-
-}
+    }
+.fpage {
+    display: block;
+    position: absolute;
+    right: 150px;
+    top: 110px;  
+    }
 }
 

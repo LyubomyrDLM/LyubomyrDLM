@@ -30,6 +30,7 @@
 .heading nav a:hover {
     color: rgb(255, 255, 255); 
     font-weight: bold;
+    text-decoration: underline;
 }
 
 #home {
@@ -74,6 +75,7 @@
     display: flex;
     flex: 1;
     align-items: center;
+    
     }
 
 .natural-beer {

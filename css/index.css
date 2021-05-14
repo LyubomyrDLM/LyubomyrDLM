@@ -20,11 +20,20 @@
     border-radius: 50px;
     
 }
+.heading nav a {
+    display: block;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 0 40px;
+    
+    }
 
 .heading nav a:hover {
     color: white; 
     font-weight: bold;
 }
+
 
 #home {
     background-image: url(../img/Beer.jpg);
@@ -50,30 +59,32 @@
     width: 100px;
     border-radius: 10px;
 }
+  
  
 @media (min-width: 600px) {
 
 .heading {    
     display: flex;
-   
-    }
+   }
 
 .heading nav {
     display: flex;
     flex: 1;
     align-items: center;
+    
     }
-.natural-beer {
+
+    .natural-beer {
     display: block;
     padding: 100px;
+    }
+
+
+.fpage img {
+    display: block;
+    width: 50px;
+    border-radius: 20px;
+
 }
-.heading nav a {
-    text-decoration: none;
-    text-transform: uppercase;
-    color: var(--main-color);
-    padding: 50px;
-    font-size: 20px;
-    font-weight: bold;
 }
-    
-}
+

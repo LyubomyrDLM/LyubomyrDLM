@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Янтарне пиво</title>
     <link rel="icon" href="img/logo.jpg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
 </head>
 
@@ -24,6 +25,13 @@
                 <a href="#contacts">Контакти</a>
             </nav>
         </div>
+        <div>
+            <button class="fpage">
+                <a
+                    href="https://www.facebook.com/%D0%96%D0%B8%D0%B2%D0%B5-%D0%AF%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%B5-%D0%9F%D0%B8%D0%B2%D0%BE-101138424823435"></a>
+                <img src="img/facebook.jpg" alt="facebook">
+            </button>
+        </div>
 
         <div class="natural-beer">
             <h1>Скуштуйте смак справжнього натурального <span class="colorword">ПИВА!</span></h1>
@@ -31,24 +39,19 @@
                 <button class="order">Замовити</button>
             </form>
         </div>
-        <div>
-            <button class="fpage"> 
-            <a href="https://www.facebook.com/%D0%96%D0%B8%D0%B2%D0%B5-%D0%AF%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%B5-%D0%9F%D0%B8%D0%B2%D0%BE-101138424823435"></a>
-            <img src="img/facebook.jpg" alt="facebook">
-        </button>
-        </div>
-        
+
     </header>
 
     <main>
         <section id="about">
-            <img src="img/fermenters.jpg" width="300">
-
-            <h2>Пивоварня</h2>
-            <p> Виробництво пива — складний і тривалий процес, що складається з кількох нетехнологічних циклів:
-                виробництва солоду, отримання пивного сусла, зброджування сусла пивними дріжджами,
-                доброджування, фільтрація пива і розлив.</p>
-            <button class="button">Більше про нас</button>
+                <img src="img/fermenters.jpg" width="300">
+            <div class="beer-story">
+                <h2>Пивоварня</h2>
+                <p> Виробництво пива — складний і тривалий процес, що складається з кількох нетехнологічних циклів:
+                    виробництва солоду, отримання пивного сусла, зброджування сусла пивними дріжджами,
+                    доброджування, фільтрація пива і розлив.</p>
+                <button class="button">Більше про нас</button>
+            </div>
         </section>
         <article id="price">
             <div class="price">
@@ -79,7 +82,7 @@
             </div>
             <div>
                 <form action="price.html" target="_blank">
-                    <button>Замовити</button>
+                    <button class="order">Замовити</button>
                 </form>
             </div>
         </article>
@@ -87,9 +90,31 @@
             <h3>Події</h3>
             <span>Craft Beer and Vinil Festival</span>
             <span>ЛЬвів</span>
-
-
         </section>
+            
+        <div id="gallery" class="carousel slide" data-bs-ride="carousel">
+            <h2 class="foto">Галерея</h2>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/beerlogo.jpg" class="d-block w-50 m-auto" alt="beerlogo">
+              </div>
+              <div class="carousel-item">
+                <img src="img/beerhome.jpg" class="d-block w-50 m-auto" alt="beerhome">
+              </div>
+              <div class="carousel-item">
+                <img src="/img/beerglass.png" class="d-block w-50 m-auto" alt="beerglass">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#gallery" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#gallery" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+    <!--    
         <section id="gallery">
             <div>
                 <h2>Галерея</h2>
@@ -104,7 +129,7 @@
                 <img src="img/picc.jpg">
             </div>
         </section>
-    </main>
+    </main> -->
 
     <footer>
         <section id="contacts">

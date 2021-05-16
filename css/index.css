@@ -51,6 +51,7 @@ body {
     background-image: url(../img/Beer.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 400px;
     }
 
 .natural-beer h1 {
@@ -109,6 +110,7 @@ body {
     background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 400px;
     
 }
 
@@ -116,14 +118,17 @@ body {
     display: block;
     border: 1px solid;
     border-radius: 10px;
-    width: 300px;
+    width: 500px;
+    
 }
 #about .beer-story {
     display: block;
     border: 1px solid;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
+    height: 250px;
     background-color: white;
+    
 }
 
 @media (min-width: 600px) {
@@ -137,12 +142,84 @@ body {
 
 }
 
+.assortments {
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+#price {
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+#price .lightbeer {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;  
+    background-color: white;
+}
+
+#price .amberbeer {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px; 
+    background-color: white; 
+}
+
+#price .darkbeer {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;  
+    background-color: white;
+}
+
+#price .kvas {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;  
+    background-color: white;
+}
+
+@media (min-width: 600px) {
+    
+    #price .list-of-beer{
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        
+        width: 40%;
+        align-items: center;
+
+    }
+
+}
+
+#event {
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 400px;
+}
+
+.events {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;  
+    background-color: white;
+}
+
+
 #gallery {
     background-image: url(../img/background2.jpg);
     background-size: cover;
     background-position: center;
+    min-height: 400px;
 }
 
 .foto {
     text-align: center;
+    font-size: 50px;
 }

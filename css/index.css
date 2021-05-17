@@ -160,42 +160,46 @@ body {
     
 }
 
-#price .lightbeer {
-    display: block;
-    border: 1px solid;
-    border-radius: 10px;  
-    background-color: white;
-    
-}
-
-
-#price .amberbeer {
-    display: block;
-    border: 1px solid;
-    border-radius: 10px; 
-    background-color: white;
-    
-}
-
-#price .darkbeer {
-    display: block;
-    border: 1px solid;
-    border-radius: 10px;  
-    background-color: white;
-    
-}
-
-#price .kvas {
-    display: block;
-    border: 1px solid;
-    border-radius: 10px;  
-    background-color: white;
-    
-}
 .list-of-beer {
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+.list-of-beer .item {
+    display: block;
+    border: 1px solid;
+    border-radius: 10px;  
+    background-color: white;
+    padding: 15px;
+    
+}
+
+.list-of-beer .item + .item {
+    margin-top: 15px;
+}
+
+.list-of-beer .item h3 {
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: baseline;
+    width: 100%;
+}
+
+.list-of-beer .item h3 .title, .list-of-beer .item h3 .price {
+    flex-shrink: 0;
+}
+
+.list-of-beer .item h3 .line {
+    display: block;
+    height: 1px;
+    width: 100%;
+    background-color: grey;
+    margin: 0 7px;
+}
+
+.list-of-beer .item p {
+    color: red;
 }
 
 @media (min-width: 600px) {

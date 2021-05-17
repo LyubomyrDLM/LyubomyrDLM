@@ -194,12 +194,12 @@ body {
     display: block;
     height: 1px;
     width: 100%;
-    background-color: grey;
+    background-color: rgb(12, 129, 22);
     margin: 0 7px;
 }
 
 .list-of-beer .item p {
-    color: red;
+    color: rgb(0, 0, 0);
 }
 
 @media (min-width: 600px) {

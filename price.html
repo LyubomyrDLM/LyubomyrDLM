@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Янтарне пиво</title>
     <link rel="icon" href="img/logo.jpg">
+    <link rel="stylesheet" href="css/price.css">
 </head>
 
 <body>
     <header id="home">
-        <div>
-            <div>
-                <img src="img/logo.jpg" alt="logo" width="100">
+        <div class="clock"></div>
+        <div class="heading">
+            <div class="logo">
+                <img src="img/logo.jpg" alt="logo">
             </div>
             <nav>
                 <a href="#home">Головна</a>
@@ -22,25 +24,51 @@
                 <a href="#gallery">Галерея</a>
                 <a href="#contacts">Контакти</a>
             </nav>
+            <div class="fpage">
+            
+                <a href="https://www.facebook.com/%D0%96%D0%B8%D0%B2%D0%B5-%D0%AF%D0%BD%D1%82%D0%B0%D1%80%D0%BD%D0%B5-%D0%9F%D0%B8%D0%B2%D0%BE-101138424823435"></a>
+                <img src="img/facebook.jpg" alt="facebook" class="fb">
         </div>
 
+        </div>
+    </header>
+    <main>
+        <div>
+            <img src="img/png-clipart-beer-beer.png" width="200">
+            <button>Купити</button>
+        </div>
+        <div>
+            <img src="img/png-clipart-beer-cocktail-root-beer-beer-glassware-brown-beer-cup-glass-beer-bottle.png"
+                width="200">
+            <button>купити</button>
+        </div>
 
-<div>
-    <img src="img/png-clipart-beer-beer.png" width="200">
-    <button>Купити</button>
-</div>
-<div>
-    <img src="img/png-clipart-beer-cocktail-root-beer-beer-glassware-brown-beer-cup-glass-beer-bottle.png" width="200">
-    <button>купити</button>
-</div>
-
-<div>
-    <img src="img/png-clipart-beer-glasses-grog-liqueur-drink-beer-glass-tea.png" width="200">
-    <button>купити</button>
-</div>
-<div>
-    <img src="img/images.jpg" width="150">
-    <button>купити</button>
-</div>
+        <div>
+            <img src="img/png-clipart-beer-glasses-grog-liqueur-drink-beer-glass-tea.png" width="200">
+            <button>купити</button>
+        </div>
+        <div>
+            <img src="img/images.jpg" width="150">
+            <button>купити</button>
+        </div>
+    </main>
+    <footer>
+        <section id="contacts">
+            <h3>Контакти</h3>
+            <form method="" action="">
+                <label>
+                    Імя <input type="text" placeholder="Ваше імя" name="user-name">
+                </label>
+                <label>
+                    Номер тел. <input type="tel" placeholder="Номер телефону" name="user-tel">
+                </label>
+                <input type="submit" value="Відправити" name="send">
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
 </body>
+
 </html>

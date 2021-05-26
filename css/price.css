@@ -18,7 +18,7 @@ body {
 
 .heading .logo img {
     display: block;
-    width: 200px;
+    width: 130px;
     height: auto;
     padding: 30px;
     border-radius: 50px;
@@ -29,7 +29,7 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     color: var(--main-color);
-    font-size: 21px;
+    font-size: 19px;
     
 }
 
@@ -59,8 +59,16 @@ body {
     background-image: url(../img/beer.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 600px;
+    min-height: 400px;
     }
+
+.accesories-price {
+    display: block;
+    text-align: center;
+    
+
+}
+    
 
     @media (min-width: 600px) {
 
@@ -83,3 +91,12 @@ body {
         
                   
      }
+
+ .list {
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 400px;
+        
+    }
+     

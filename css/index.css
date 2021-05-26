@@ -134,7 +134,7 @@ body {
     border: 1px solid;
     border-radius: 10px;
     width: 400px;
-    height: 500px;
+    height: 300px;
     background-color: white;
     
 }
@@ -254,6 +254,18 @@ body {
     background-color: white;
     margin: auto;
 }
+#gallery {
+    background-image: url(../img/background2.jpg);
+    background-size: cover;
+    background-position: center;
+    min-height: 600px;
+}
+
+.foto {
+    text-align: center;
+    font-size: 50px;
+}
+
 
 @media (min-width: 600px) {
 
@@ -265,17 +277,30 @@ body {
         align-items: center;
         margin: auto;
         padding:  100px;
- 
+    } 
+    }
 
-
-#gallery {
-    background-image: url(../img/background2.jpg);
+#contacts {
+    display: block;
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 400px;
+    min-height: 200px;
+    padding: 50px;
+    
 }
 
-.foto {
-    text-align: center;
-    font-size: 50px;
+.contact-us {
+    color: white;
+    font-size: 30px;
+}
+
+.use-name {
+    color: white;
+    font-size: 20px;
+}
+
+.use-tel {
+    color: white;
+    font-size: 20px;
 }

@@ -18,7 +18,7 @@ body {
 
 .heading .logo img {
     display: block;
-    width: 130px;
+    width: 150px;
     height: auto;
     padding: 30px;
     border-radius: 50px;
@@ -96,7 +96,31 @@ body {
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
         background-size: cover;
         background-position: center;
-        min-height: 400px;
+        min-height: 600px;
         
     }
-     
+ 
+    #contacts {
+        display: block;
+        background-image: url(../img/background2.jpg);
+        background-size: cover;
+        background-position: center;
+        min-height: 100px;
+        padding: 50px;
+        
+    }
+    
+    .contact-us {
+        color: black;
+        font-size: 35px;
+    }
+    
+    .use-name {
+        color: black;
+        font-size: 25px;
+    }
+    
+    .use-tel {
+        color: black;
+        font-size: 25px;
+    }    

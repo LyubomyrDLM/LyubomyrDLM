@@ -104,12 +104,16 @@ body {
     }
     @media (min-width: 600px) {
     
- .list .listbuy {
+.listbuy {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: 20px;
     grid-row-gap: 10em;
 }
+
+p {
+    color: white;
+}   
     
     #contacts {
         display: block;

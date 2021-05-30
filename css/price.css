@@ -68,7 +68,7 @@ body {
     text-align: center;
     text-decoration: 0;
     font-size: 50px;
-    padding-top: 100px;
+    padding-top: 150px;
     color: rgb(255, 255, 255); 
 }
     
@@ -108,14 +108,26 @@ body {
 .listbuy {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 20px;
-    grid-row-gap: 10em;
+    justify-items: center;
+}
+.item {
+    padding: 10px;
+    border: 0px solid;
+    text-align: center;
 }
 
-p {
+.item p {
+    font-size: large;
     color: white;
 }   
-    
+
+.item button {
+    font-size: 20px;
+    border-radius: 10px;
+    width: 100px;
+    border-color: rosybrown;
+}
+}    
     #contacts {
         display: block;
         background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/wood.jpg);
@@ -127,17 +139,20 @@ p {
     }
     
     .contact-us {
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 35px;
+        
     }
     
     .use-name {
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 25px;
+        
     }
     
     .use-tel {
-        color: black;
+        color: rgb(255, 255, 255);
         font-size: 25px;
+        
     } 
-}       
+       

@@ -12,7 +12,7 @@
 }
 
 body {
-    max-width: 1250px;
+    max-width: 1450px;
     margin: auto;
 }
 
@@ -28,14 +28,14 @@ body {
     display: block;
     text-decoration: none;
     text-transform: uppercase;
-    color: black !important; 
+    color: rgb(255, 255, 255) !important; 
     font-size: 22px;
-    margin: 5px;
+    margin: 20px;
     
 }
 
 .container .navbar-nav a:hover {
-    color: rgb(255, 255, 255) !important; 
+    color: rgb(212, 212, 212) !important; 
     font-weight: bold;
     text-decoration: underline;
 }
@@ -57,10 +57,10 @@ body {
 }
 
 #home {
-    background-image: url(../img/beer.jpg);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/wallpaper.jpg);
     background-size: cover;
     background-position: center;
-    min-height: 550px;
+    min-height: 800px;
 }
 
 .accesories-price .beer-price {
@@ -69,6 +69,7 @@ body {
     text-decoration: 0;
     font-size: 50px;
     padding-top: 100px;
+    color: rgb(255, 255, 255); 
 }
     
 
@@ -95,7 +96,7 @@ body {
      }
 
  .list {
-        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/background2.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/wood.jpg);
         background-size: cover;
         background-position: center;
         min-height: 600px;
@@ -117,7 +118,7 @@ p {
     
     #contacts {
         display: block;
-        background-image: url(../img/background2.jpg);
+        background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(../img/wood.jpg);
         background-size: cover;
         background-position: center;
         min-height: 100px;
@@ -138,4 +139,5 @@ p {
     .use-tel {
         color: black;
         font-size: 25px;
-    }    
+    } 
+}       

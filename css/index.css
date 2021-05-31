@@ -282,7 +282,7 @@ body {
         width: 40%;
         align-items: center;
         margin: auto;
-        padding:  100px;
+        padding: 100px;
     } 
     }
 
@@ -309,4 +309,8 @@ body {
 .use-tel {
     color: white;
     font-size: 20px;
+}
+#map {
+    display: block;
+    padding-top: 30px;
 }

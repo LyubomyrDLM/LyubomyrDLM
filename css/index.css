@@ -254,7 +254,7 @@ body {
     background-size: cover;
     background-position: center;
     min-height: 400px;
-    padding: 50px;
+    padding-top: 50px;
     
 }
 .events {
@@ -284,10 +284,10 @@ body {
         display: flex;
         flex-direction: column; 
         justify-content: center;
-        width: 40%;
+        width: 30%;
         align-items: center;
         margin: auto;
-        padding: 100px;
+        padding-top: 20px;
     } 
     }
 
